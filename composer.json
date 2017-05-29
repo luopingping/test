@@ -1,0 +1,21 @@
+{
+    "name": "luopingping/test",
+    "description": "This a demo for build composer packagist.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wll2020520",
+            "email": "wll2020520@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php":">=5.4.5"
+    },
+    "autoload":{
+      "psr-4":{
+        "Luopingping\\Test\\":"src/Test"
+      }
+    }
+}
